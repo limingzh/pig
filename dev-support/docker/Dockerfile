@@ -17,7 +17,7 @@
 # Dockerfile for installing the necessary dependencies for building Apache Pig.
 # See BUILDING.md.
 
-FROM ubuntu:trusty
+FROM ubuntu:trusty-20190425
 
 # Define working directory.
 WORKDIR /root
